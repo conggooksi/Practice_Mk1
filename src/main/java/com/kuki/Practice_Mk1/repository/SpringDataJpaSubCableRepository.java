@@ -1,4 +1,4 @@
-package repository;
+package com.kuki.Practice_Mk1.repository;
 
 import com.kuki.Practice_Mk1.domain.SubCable;
 import org.springframework.data.jpa.repository.JpaRepository;

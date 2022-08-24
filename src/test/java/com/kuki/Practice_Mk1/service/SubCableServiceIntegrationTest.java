@@ -1,14 +1,11 @@
 package com.kuki.Practice_Mk1.service;
 
 import com.kuki.Practice_Mk1.domain.SubCable;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
-import repository.MemorySubCableRepository;
-import repository.SubCableRepository;
+import com.kuki.Practice_Mk1.repository.SubCableRepository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -20,6 +17,7 @@ class SubCableServiceIntegrationTest {
 
     @Autowired
     SubCableService subCableService;
+
     @Autowired
     SubCableRepository subCableRepository;
 
@@ -27,7 +25,7 @@ class SubCableServiceIntegrationTest {
     void 회원가입() {
         //given
         SubCable subCable = new SubCable();
-        subCable.setSubCableName("hello");
+        subCable.setSubCableName("spring");
 
         //when
         Long saveId = subCableService.join(subCable);

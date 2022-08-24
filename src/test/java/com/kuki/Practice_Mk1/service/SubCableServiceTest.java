@@ -1,11 +1,10 @@
 package com.kuki.Practice_Mk1.service;
 
 import com.kuki.Practice_Mk1.domain.SubCable;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import repository.MemorySubCableRepository;
+import com.kuki.Practice_Mk1.repository.MemorySubCableRepository;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.*;

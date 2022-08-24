@@ -1,11 +1,8 @@
 package com.kuki.Practice_Mk1.service;
 
 import com.kuki.Practice_Mk1.domain.SubCable;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import repository.MemorySubCableRepository;
-import repository.SubCableRepository;
+import com.kuki.Practice_Mk1.repository.SubCableRepository;
 
 import java.util.List;
 import java.util.Optional;

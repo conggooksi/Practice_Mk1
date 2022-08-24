@@ -4,7 +4,7 @@ import com.kuki.Practice_Mk1.service.SubCableService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import repository.SubCableRepository;
+import com.kuki.Practice_Mk1.repository.SubCableRepository;
 
 @Configuration
 public class SpringConfig {
@@ -46,7 +46,6 @@ public class SpringConfig {
 //        return new MemorySubCableRepository();
 //        return new JdbcTemplateSubCableRepository(dataSource);
 //        return new JpaSubCableRepository(em);
-
 //    }
 
 }
